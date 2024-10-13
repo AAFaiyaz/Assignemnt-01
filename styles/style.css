@@ -19,6 +19,7 @@
   padding: 24px;
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
+  cursor: pointer;
 }
 
 .text-center {
@@ -34,6 +35,18 @@ main,
 .footer-container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+section .title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+}
+
+section .descriptipn {
+  padding: 24px 48px 48px 48px;
+  text-align: center;
 }
 
 /* Nav */
@@ -85,6 +98,7 @@ nav button {
   margin: 0 auto 32px auto;
   line-height: 26px;
   width: 90%;
+  opacity: 70%;
 }
 
 .banner button {
@@ -94,12 +108,52 @@ nav button {
   border-radius: 8px;
 }
 
+/* Web Development Section Start */
+
 .web-development {
   margin-top: 74px;
   margin-bottom: 90px;
-  height: 500px;
   background-color: rgba(13, 19, 33, 0.02);
+  padding: 80px 97px;
 }
+
+.card-1,
+.card-2 {
+  display: flex;
+  padding: 48px;
+  gap: 98px;
+  /* background: linear-gradient(rgb(255, 255, 255) rgba(255, 255, 255, 0)); */
+  border-radius: 15px;
+}
+
+.card-1 {
+  background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.8)
+  );
+}
+
+.card-1 .card-title,
+.card-2 .card-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.card-1 button,
+.card-2 button {
+  margin-top: 32px;
+  padding: 12px 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.web-cards img {
+  width: 274px;
+  height: 240px;
+}
+
+/* Web Development Section End */
 
 footer {
   background-color: rgba(13, 19, 33, 0.03);
