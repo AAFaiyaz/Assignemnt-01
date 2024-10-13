@@ -155,6 +155,80 @@ nav button {
 
 /* Web Development Section End */
 
+/* inspiration section start */
+.inspiration {
+  margin-bottom: 151px;
+}
+.inspiration p {
+  margin-right: 20px;
+}
+
+.inspiration-video {
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.inspiration-video iframe {
+  border-radius: 16px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* inspiration section end */
+
+/* target section start */
+.target {
+  margin-bottom: 111px;
+}
+.target-cards {
+  display: flex;
+  gap: 24px;
+}
+
+.target-cards .card {
+  padding: 40px;
+  border: 1px solid green;
+  border-radius: 16px;
+}
+
+.target-cards .card img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 24px;
+}
+
+.target-card-title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.target-card-description {
+  margin-bottom: 24px;
+}
+
+.learn-more {
+  font-weight: 700;
+}
+
+.target-cards a:visited {
+  color: rgb(13, 19, 33);
+}
+
+.target-card-1 {
+  background-color: rgba(255, 76, 30, 0.05);
+}
+
+.target-card-2 {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+
+.target-card-3 {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+
+/* target section end */
+
 footer {
   background-color: rgba(13, 19, 33, 0.03);
   padding-top: 32px;
