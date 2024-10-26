@@ -311,5 +311,6 @@ footer img {
 @media only screen and (max-width: 576px) {
   body {
     background-color: lightblue;
+    color: black;
   }
 }
