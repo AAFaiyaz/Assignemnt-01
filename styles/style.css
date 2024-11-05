@@ -310,7 +310,7 @@ footer img {
 /* Mobile View */
 @media only screen and (max-width: 576px) {
   p {
-    background-color: lightblue;
+    background-color: yellow;
     color: black;
     border: 1px solid green;
   }
